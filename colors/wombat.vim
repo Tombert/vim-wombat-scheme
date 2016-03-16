@@ -31,7 +31,7 @@ hi Title ctermfg=230 cterm=bold guifg=#ffffd7 gui=bold
 hi StatusLine ctermfg=230 ctermbg=238 cterm=none guifg=#ffffd7 guibg=#444444 gui=none
 hi VertSplit ctermfg=238 ctermbg=238 cterm=none guifg=#444444 guibg=#444444 gui=none
 hi StatusLineNC ctermfg=241 ctermbg=238 cterm=none guifg=#857b6f guibg=#444444 gui=none
-hi LineNr ctermfg=241 ctermbg=232 cterm=none guifg=#857b6f guibg=#080808 gui=none
+hi LineNr ctermfg=241 ctermbg=233 cterm=none guifg=#857b6f guibg=#080808 gui=none
 hi SpecialKey ctermfg=241 ctermbg=235 cterm=none guifg=#626262 guibg=#2b2b2b gui=none
 hi WarningMsg ctermfg=203 guifg=#ff5f55
 hi ErrorMsg ctermfg=196 ctermbg=234 cterm=bold guifg=#e3e0d7 guibg=#3a3a3a gui=bold
@@ -48,7 +48,7 @@ endif
 
 " Diff highlighting
 hi DiffAdd ctermbg=17 guibg=#2a0d6a
-hi DiffDelete ctermfg=234 ctermbg=60 cterm=none guifg=#242424 guibg=#3e3969 gui=none
+hi DiffDelete ctermfg=234 ctermbg=230 cterm=none guifg=#242424 guibg=#3e3969 gui=none
 hi DiffText ctermbg=53 cterm=none guibg=#73186e gui=none
 hi DiffChange ctermbg=237 guibg=#382a37
 
@@ -72,5 +72,5 @@ hi! link CursorColumn CursorLine
 hi! link NonText LineNr
 
 " Awesome 80 characters delemiter
-execute "set colorcolumn=" . join(range(81,335), ',')
-hi ColorColumn guibg=#262626 ctermbg=235
+"execute "set colorcolumn=" . join(range(81,335), ',')
+"hi ColorColumn guibg=#262626 ctermbg=233
