@@ -1,5 +1,9 @@
 # vim-wombat
 
+This is a fork of wonderful vim-wombat colorscheme.  I really like it, but I made a few tweaks to unsuck it. 
+
+------
+
 An enhanced [wombat256](http://www.vim.org/scripts/script.php?script_id=2465) color scheme for Vim.
 
 ## Installation
