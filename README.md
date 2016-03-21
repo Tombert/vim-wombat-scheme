@@ -2,6 +2,10 @@
 
 This is a fork of wonderful vim-wombat colorscheme.  I really like it, but I made a few tweaks to unsuck it. 
 
+## What did I do different? 
+
+Not a lot; it's a good theme, the issue I had is that I greatly disliked the 80 character delimiter, and the colors didn't look quite right to me on iTerm 2, though that could be because I was comparing it to the Emacs Wombat skin. 
+
 ------
 
 An enhanced [wombat256](http://www.vim.org/scripts/script.php?script_id=2465) color scheme for Vim.
